@@ -1,0 +1,43 @@
+.App {
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+  margin-top: 20px;
+}
+
+.board {
+  margin: 0 auto;
+  border-collapse: collapse;
+}
+
+.board td {
+  width: 85px;
+  height: 85px;
+  border: 1px solid #999;
+  font-size: 24px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.cell.zone {
+  background-color: #f0f0f0;
+}
+
+.cell.green {
+  background-color: #74e074 !important;
+}
+
+.cell.red {
+  background-color: #e07474 !important;
+}
+
+.cell.highlight {
+  background-color: rgba(255, 255, 0, 0.4);
+  cursor: pointer;
+}
+
+h1.title {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
